@@ -1,0 +1,64 @@
+#main{
+    text-align: center;
+    height: 100vh;
+    width: 99vw;
+    background-image: url(/img/main3.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+   z-index: 90;
+   
+}
+.social:hover{
+  transform: scale(2);
+}
+#me{
+    text-decoration: none;
+    color: blue;
+}
+#me:hover{
+    color: wheat
+;
+}
+#mainCon
+
+{  text-align: center;
+    margin-left: 5vw;
+    margin-right:50vw;
+    padding-top: 25vh;
+   
+}
+#preloader{
+    background: black url(/img/p.gif) no-repeat center center;
+    z-index:100;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 20%;
+}
+#home{
+    font-size: 1.5vw;
+}
+body{
+    /* background-image: url(/img/Robot\ Mascot\,\ Hannah\ McCall.jpg); */
+    background-attachment: fixed;
+}
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 5vh;
+    row-gap: 5vh;
+}
+footer{
+    padding: 10px;
+    width:99vw;
+    background-color: black;
+    color: white;
+
+}
+#goto{
+    text-decoration: none;
+    color: black;
+   font-size: 80px;
+}
